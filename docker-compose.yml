@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  web-library:
+    build: .
+    container_name: lib-vitrungquy-k24cntt3
+    restart: always
+    ports:
+      - "127.0.0.1:3088:80"
